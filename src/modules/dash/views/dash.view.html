@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="pull-left">Employee Dashboard</h4>
+        <button class="btn btn-primary btn-sm pull-right" ng-click="dash.editEmployee()">
+            <i class="fa fa-user-plus"></i>
+            Add Employee
+        </button>
+    </div>
+</div>
+<div class="row top-buffer">
+    <div class="col-md-12">
+        <div ui-grid="dash.gridOptions"></div>
+    </div>
+</div>
+<div class="row top-buffer">
+    <div class="col-md-6">
+        <hc-chart options="dash.chartEmployeesByJobTitle"></hc-chart>
+    </div>
+    <div class="col-md-6">
+        <hc-chart options="dash.chartEmployeesByGender"></hc-chart>
+    </div>
+</div>

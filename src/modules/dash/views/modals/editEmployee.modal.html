@@ -1,0 +1,16 @@
+<div class="modal-header">
+    <h3 class="modal-title">{{edit.isNew ? 'Add' : 'Edit'}} employee</h3>
+</div>
+<div class="modal-body">
+    <form name="edit.employeeForm">
+        <formly-form model="edit.employee" fields="edit.fields" form="edit.employeeForm"
+                     options="edit.formOptions"></formly-form>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-link" ng-click="edit.dismiss()">Cancel</button>
+    <button class="btn btn-primary" ng-click="edit.save(edit.employee)" ng-disabled="edit.employeeForm.$invalid">
+        <i class="fa" ng-class="{'fa-plus-square': edit.isNew, 'fa-save': !edit.isNew}"></i>
+        {{edit.isNew ? 'Add' : 'Save'}}
+    </button>
+</div>

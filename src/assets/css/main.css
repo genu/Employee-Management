@@ -1,0 +1,11 @@
+body {
+    padding-top: 15px;
+}
+
+.top-buffer {
+    margin-top: 15px;
+}
+
+.tooltip-uigrid-offset {
+    margin-top: 0 !important;
+}

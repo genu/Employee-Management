@@ -1,0 +1,22 @@
+{
+  "name": "employee_management",
+  "version": "1.0.0",
+  "description": "## How to run locally",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server --open='./src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://genu@github.com/genu/Employee-Management.git"
+  },
+  "author": "Eugen Istoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genu/Employee-Management/issues"
+  },
+  "homepage": "https://github.com/genu/Employee-Management#readme",
+  "dependencies": {
+    "live-server": "^1.0.0"
+  }
+}
