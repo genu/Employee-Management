@@ -1,5 +1,6 @@
 ## Employee Management
 This is a example employee management system for demonstration purposes
+![Screenshot](https://github.com/genu/Employee-Management/blob/master/screenshot.png)
 
 ## Dependencies
 This project as Node and Bower dependencies
