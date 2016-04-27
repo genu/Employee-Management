@@ -4,7 +4,8 @@
   "description": "## How to run locally",
   "main": "index.js",
   "scripts": {
-    "server": "live-server --open='./src'"
+    "start": "live-server --open='./src'",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
