@@ -17,4 +17,4 @@ Authentication is mocked. A mechanism is in place to use an actual auth server, 
 The password is `cookieMonster`
 
 ## Data Mocking
-There is a service in place that communicates with the backend API. The backed is mocked, however, and list data is returned by loading the `employees.json` file located in `modules/core/mocks/employees.json`. All *CRUD* operations are support, but only the **READ** is implemented. (All other verbs are gracefully resolved). 
+There is a service in place that communicates with the backend API. The backed is mocked, however, and list data is returned by loading the `employees.json` file located in `modules/core/mocks/employees.json`. All *CRUD* operations are supported, but only the **READ** is implemented. (All other verbs are gracefully resolved). 
