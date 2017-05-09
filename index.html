@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Management</title>
+  <!--Dependencies-->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" />
+
+  <!--Application-->
+  <link rel="stylesheet" href="src/assets/css/main.css" />
+</head>
+
+<body ng-app="EmployeeDashboard">
+  <div class="container clearfix" ui-view></div>
+  <!--Dependencies-->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+
+  <!--Application-->
+  <script src="src/app.js"></script>
+  <script src="src/modules/core/core.module.js"></script>
+  <script src="src/modules/core/components/main.js"></script>
+  <script src="src/modules/core/resources/employee.resource.js"></script>
+  <script src="src/modules/components/components.module.js"></script>
+  <script src="src/modules/components/dash/dash.component.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,3 @@
 'use strict';
 
-angular.module('uiChallange', [
-    'module.dash'
-]);
+angular.module('EmployeeDashboard', ['module.components']);
