@@ -1,5 +1,5 @@
 ## Employee Management
-This is a example employee management system for demonstration purposes. [View Demo](https://jsfiddle.net/eugenistoc/kb2bsc8e/61/show/)
+This is a example employee management system for demonstration purposes. [View Demo](https://jsfiddle.net/eugenistoc/kb2bsc8e/61/embedded/result/#show)
 ![Screenshot](https://github.com/genu/Employee-Management/blob/master/screenshot.png)
 
 ## Dependencies
